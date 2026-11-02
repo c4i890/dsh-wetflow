@@ -4,6 +4,39 @@ DSH–WetFlow 是一个面向生物研究的 DeepSeek Harness 社区插件。它
 
 这是预览版本，当前验证环境为 **DSH 0.2.1-rc.5、Linux／WSL、Node.js 22.22、Python 3.12、Bubblewrap 和 OpenMM 8.6.1 CPU**。原生 Windows 与 macOS 尚未适配。项目独立于 DeepSeek 官方维护。
 
+## 演示
+
+从导入项目资料、提出流程方案和人工审批，到运行 OpenMM 并保存结果，下面的视频展示了工作台的实际操作。
+
+[观看演示视频（约 62 秒，60 帧，无字幕）](https://github.com/c4i890/dsh-wetflow/releases/download/v0.1.0-alpha.1/dsh-wetflow-demo.mp4) · [下载全部示例图与视频](https://github.com/c4i890/dsh-wetflow/releases/download/v0.1.0-alpha.1/dsh-wetflow-demo-media.zip)
+
+[![流程方案与人工审批](assets/demo/workflow-approval.png)](https://github.com/c4i890/dsh-wetflow/releases/download/v0.1.0-alpha.1/dsh-wetflow-demo.mp4)
+
+研究者确认流程方案后，Agent 才能按流程继续推进。视频中的 OpenMM 任务使用 100 步短模拟，展示体系准备、运行与结果保存。
+
+<details>
+<summary>查看其他示例图</summary>
+
+**工作台与项目资料**
+
+![工作台与项目资料](assets/demo/workbench.png)
+
+**审批后推进阶段**
+
+![审批后推进阶段](assets/demo/stage-approved.png)
+
+**OpenMM 任务完成**
+
+![OpenMM 任务完成](assets/demo/openmm-completed.png)
+
+**插件保护你的重要资料**
+
+插件将导入资料标记为受保护记录。这个示例中，Agent 收到修改请求后保留了原文件，并提出后续处理选项。
+
+![插件保护你的重要资料](assets/demo/protected-records.png)
+
+</details>
+
 ## 安装
 
 安装 Node.js、pnpm 和 DSH 0.2.1-rc.5，并在 Linux 或 WSL 中安装 `bubblewrap` 与 Python 3.11 以上版本。Ubuntu 示例：
