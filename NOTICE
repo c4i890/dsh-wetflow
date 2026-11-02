@@ -1,0 +1,11 @@
+DSH–WetFlow
+Copyright 2026 OUC-Haide contributors
+
+This distribution contains the team's WetFlow implementation in wetflow/,
+licensed under Apache License 2.0, with a DSH integration layer and MD tools.
+Existing source and example attributions are retained in their respective files.
+
+DeepSeek Harness is a separate host project by DeepSeek, licensed under MIT.
+This community plugin is not an official DeepSeek product. Host packages and
+third-party dependencies retain their own licenses; they are installed separately
+and are not copied into the plugin's source or release archive.

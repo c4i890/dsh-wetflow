@@ -1,0 +1,3 @@
+# Tested CPU environment; GPU support depends on the local OpenMM installation.
+openmm==8.6.1
+numpy==2.5.3
