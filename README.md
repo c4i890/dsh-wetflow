@@ -13,7 +13,7 @@ sudo apt install bubblewrap python3-venv
 npm install -g pnpm @deepseek-ai/dsh@0.2.1-rc.5
 ```
 
-从 [Releases](https://github.com/c4i890/dsh-wetflow/releases/latest) 下载安装包，在文件所在目录运行：
+从 [Releases](https://github.com/c4i890/dsh-wetflow/releases) 下载安装包，在文件所在目录运行：
 
 ```bash
 dsh plugin --profile web add ./dsh-wetflow-0.1.0-alpha.1.tgz
